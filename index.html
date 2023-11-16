@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Movie Website | Animated Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="./images/unpocoloco_crop.png" alt="" />
+      </a>
+      <ul class="nav">
+        <li><a href="#">Ezra</a></li>
+        <li>
+          <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="#">Alda</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="Yes we are home :)" disabled />
+        <i class="fa fa-home" aria-hidden="true"></i>
+      </div>
+    </header>
+    <div class="banner">
+      <div class="content the-apple active">
+        <img src="./images/the-apple.gif" alt="" class="movie-title" />
+        <h4>
+          <span>2023</span>
+          <span>June 20th</span>
+          <span>Sweet</span>
+        </h4>
+        <p>
+          A red and blossom day, sweet and also juicy. Our blackie couple
+          clothes represents its seed. We welcome the love, `crazy and fun` ~
+          <i>_unpocoloco</i>. Just like the shape of the apple the shape of
+          love.
+        </p>
+        <div class="button">
+          <button onclick="toggleVideo('theAppleVideo');">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Watch
+          </button>
+        </div>
+      </div>
+      <div class="content the-melon">
+        <img src="./images/Melon.png" alt="" class="movie-title" />
+        <h4>
+          <span>2023</span>
+          <span>Jult 25th</span>
+          <span>Peacefull</span>
+        </h4>
+        <p>
+          <b
+            >OFFICIALY TOGETHER! Greeny clothes matches our vibes, peacefull,
+            warm, honest, and loveable. Let's work on this together!</b
+          >
+        </p>
+        <div class="button">
+          <button onclick="toggleVideo('theMelonVideo');">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Watch
+          </button>
+        </div>
+      </div>
+      <div class="content the-dragonfruit">
+        <img src="./images/Dragonfruit.png" alt="" class="movie-title" />
+        <h4>
+          <span>2023</span>
+          <span>October 02th</span>
+          <span>Adrenaline</span>
+        </h4>
+        <p>
+          Crazy Fun Scaryy, to skies and beyond! Like dragon twirling in the air
+          its crazy and fun. Let's do it again!
+          <i>Tapi berani gerak2 yawww~ </i>
+        </p>
+        <div class="button">
+          <button onclick="toggleVideo('theDragonfruitVideo');">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Watch
+          </button>
+        </div>
+      </div>
+      <div class="content the-blackberry">
+        <img src="./images/Blackberry.png" alt="" class="movie-title" />
+        <h4>
+          <span>2023</span>
+          <span>November 08th</span>
+          <span>Stick Together</span>
+        </h4>
+        <p>
+          Tetap bersama dalam keadaan apapun, like the berries hehehe. The
+          flower really suits you! Let's do this together until end!
+        </p>
+        <div class="button">
+          <button onclick="toggleVideo('theBlackberryVideo');">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Watch
+          </button>
+        </div>
+      </div>
+      <div class="content the-banana">
+        <img src="./images/Banana.png" alt="" class="movie-title" />
+        <h4>
+          <span>2023</span>
+          <span>November 12th</span>
+          <span>Fullness</span>
+        </h4>
+        <p>
+          Fun day! We are full! Seperti pisang makan 1 kekenyangann hehehe.
+          <b>Lets fill this relationship with loveable memories~</b>
+        </p>
+        <div class="button">
+          <button onclick="toggleVideo('theBananaVideo');">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Watch
+          </button>
+        </div>
+      </div>
+      <div class="carousel-box">
+        <div class="carousel">
+          <div
+            class="carousel-item"
+            onClick="changeBg('Start.png','the-apple');"
+          >
+            <img src="./images/movies/Welcome.png" alt="" />
+          </div>
+          <div
+            class="carousel-item"
+            onClick="changeBg('Mellon-bg.png','the-melon');"
+          >
+            <img src="./images/movies/Melon-banner.png" alt="" />
+          </div>
+          <div
+            class="carousel-item"
+            onClick="changeBg('Dragonfruit-bg.png','the-dragonfruit');"
+          >
+            <img src="./images/movies/Dragonfruit-banner.png" alt="" />
+          </div>
+          <div
+            class="carousel-item"
+            onClick="changeBg('Blackberry-bg.png','the-blackberry');"
+          >
+            <img src="/images/movies/Blackberry-banner.png" alt="" />
+          </div>
+          <div
+            class="carousel-item"
+            onClick="changeBg('Banana-bg.png','the-banana');"
+          >
+            <img src="/images/movies/Banana-banner.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href=""><i class="fa fa-female" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_unpocoloco/"
+            ><i class="fa fa-heart" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-male" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="theAppleVideo" onclick="toggleVideo('theAppleVideo');">
+      <video src="./assets/Start.mp4" controls="true"></video>
+      <img class="close" alt="" />
+    </div>
+    <div class="theMelonVideo" onclick="toggleVideo('theMelonVideo');">
+      <video src="./assets/Melon-video.mp4" controls="true"></video>
+      <img class="close" alt="" />
+    </div>
+    <div
+      class="theDragonfruitVideo"
+      onclick="toggleVideo('theDragonfruitVideo');"
+    >
+      <video src="./assets/Dragonfruit-video.mp4" controls="true"></video>
+      <img class="close" alt="" />
+    </div>
+    <div
+      class="theBlackberryVideo"
+      onclick="toggleVideo('theBlackberryVideo');"
+    >
+      <video src="./assets/Blackberry-video.mp4" controls="true"></video>
+      <img class="close" alt="" />
+    </div>
+    <div class="theBananaVideo" onclick="toggleVideo('theBananaVideo');">
+      <video src="./assets/Banana-video.mp4" controls="true"></video>
+      <img class="close" alt="" />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel").carousel();
+      });
+    </script>
+  </body>
+</html>
